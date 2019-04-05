@@ -4,7 +4,7 @@ The results below are obtained on Ubuntu 16.04 using arm-linux-gnueabi-gcc-5 (Ub
 
 | Application | Compiles | Runs | Notes |
 |-------------|----------|------|-------|
-| automotive/basicmath | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
+| automotive/basicmath | :white_check_mark: | :white_check_mark: | 1. Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
 | automotive/bitcount | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
 | automotive/qsort | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
 | automotive/susan | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
