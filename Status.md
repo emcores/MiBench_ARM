@@ -1,6 +1,7 @@
 # Applications Status
 
 The results below are obtained on Ubuntu 16.04 using arm-linux-gnueabi-gcc-5 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
+
 | Application | Compiles | Runs | Notes |
 |-------------|----------|------|-------|
 | automotive/basicmath | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
