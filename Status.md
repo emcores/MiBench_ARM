@@ -4,11 +4,11 @@ The results below are obtained on Ubuntu 16.04 using arm-linux-gnueabi-gcc-5 (Ub
 
 | Application | Compiles | Runs | Notes |
 |-------------|----------|------|-------|
-| automotive/basicmath | :white_check_mark: | :white_check_mark: | 1. Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
-| automotive/bitcount | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
-| automotive/qsort | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
-| automotive/susan | :white_check_mark: | :white_check_mark: | Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile |
-| consumer/jpeg | :white_check_mark: | :white_check_mark: | Change CC to `arm-linux-gnueabi-gcc-5 -static` in Makefile |
+| automotive/basicmath | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
+| automotive/bitcount | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
+| automotive/qsort | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
+| automotive/susan | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
+| consumer/jpeg | :white_check_mark: | :white_check_mark: | <ol><li>Change CC to `arm-linux-gnueabi-gcc-5 -static` in Makefile</li></ol> |
 | consumer/lame | :white_check_mark: | :x: | <ol><li>Change CC to `arm-linux-gnueabi-gcc-5 -static` in Makefile</li><li>Remove LIBTERMCAP support in consumer/lame</li><li>Error when running lame:<ul><li>buffer overflow detected : lame3.70/lame terminated</li></ul></li></ol> |
 | consumer/mad | :white_check_mark: | :white_check_mark: | Removed `-fforce-mem` option from `configure` and `configure.in` under `libmad` and removed `id3tag` support using `./configure --without-id3tag`|
 | consumer/tiff | :white_check_mark: | :x: | Added `-lm` to `LIBS` under `tools`; runs but error `Seek error accessing TIFF directory`  |
