@@ -6,12 +6,12 @@ For further information on other fixes as well as alternative fixes, please refe
 
 | Application | Compiles | Runs | Notes |
 |-------------|----------|------|-------|
-| automotive/basicmath | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
-| automotive/bitcount | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
-| automotive/qsort | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
-| automotive/susan | :white_check_mark: | :white_check_mark: | <ol><li>Change `gcc` to `arm-linux-gnueabi-gcc-5` in Makefile</li></ol> |
-| consumer/jpeg | :white_check_mark: | :white_check_mark: | <ol><li>Change CC to `arm-linux-gnueabi-gcc-5 -static` in Makefile</li></ol> |
-| consumer/lame | :white_check_mark: | :x: | <ol><li>Change CC to `arm-linux-gnueabi-gcc-5 -static` in Makefile</li><li>Remove LIBTERMCAP support in consumer/lame</li><li>Error when running lame:<ul><li>buffer overflow detected : lame3.70/lame terminated</li></ul></li></ol> |
+| automotive/basicmath | :white_check_mark: | :white_check_mark: | <ol><li>Change "gcc" to "arm-linux-gnueabi-gcc-5" in Makefile</li></ol> |
+| automotive/bitcount | :white_check_mark: | :white_check_mark: | <ol><li>Change "gcc" to "arm-linux-gnueabi-gcc-5" in Makefile</li></ol> |
+| automotive/qsort | :white_check_mark: | :white_check_mark: | <ol><li>Change "gcc" to "arm-linux-gnueabi-gcc-5" in Makefile</li></ol> |
+| automotive/susan | :white_check_mark: | :white_check_mark: | <ol><li>Change "gcc" to "arm-linux-gnueabi-gcc-5" in Makefile</li></ol> |
+| consumer/jpeg | :white_check_mark: | :white_check_mark: | <ol><li>Change CC to "arm-linux-gnueabi-gcc-5 -static" in Makefile</li></ol> |
+| consumer/lame | :white_check_mark: | :x: | <ol><li>Change CC to "arm-linux-gnueabi-gcc-5 -static" in Makefile</li><li>Remove LIBTERMCAP support in consumer/lame</li><li>Error when running lame:<ul><li>buffer overflow detected : lame3.70/lame terminated</li></ul></li></ol> |
 | consumer/mad | :white_check_mark: | :x: | <ol><li>Delete config.cache before running configure</li><li>Use CC="arm-linux-gnueabi-gcc-5 -static" ./configure --build x86_64-pc-linux-gnu --host arm-linux-gnueabi --target arm-linux-gnueabi --without-id3tag</li><li>Removed -fforce-mem option from configure and configure.in under libmad and removed id3tag support using ./configure --without-id3tag</li><li>Unable to statically compile executable. Cannot run on gem5 ARM simulator</li> |
   | consumer/tiff | :x: | :x: | <ol><li>Remove the config.site file</li><li>Use ./configure --target=arm-linux-gnueabi -with-CC=arm-linux-gnueabi-gcc-5<li>Error occurs:<ul><li>= libtiff ; make[1]: Entering directory '/home/ruben/benchmarks/ARM/MiBench/consumer/tiff-v3.5.4/libtiff' ; /usr/bin/arm-linux-gnueabi-gcc-5 -static -o mkg3states  -O -I. -I../libtiff   ../libtiff/mkg3states.c ; rm -f tif_fax3sm.c; ./mkg3states -c const tif_fax3sm.c ; ./mkg3states: 1: ./mkg3states: Syntax error: word unexpected (expecting ")") ; Makefile:238: recipe for target 'tif_fax3sm.c' failed ; make[1]: *** [tif_fax3sm.c] Error 2 ; make[1]: Leaving directory '/home/ruben/benchmarks/ARM/MiBench/consumer/tiff-v3.5.4/libtiff' ; Makefile:47: recipe for target 'all' failed ; make: *** [all] Error 2</li></ul></li></ol> |
 | consumer/typeset | :white_check_mark: | :white_check_mark: | <ol><li>Change CC and LD to "arm-linux-gnueabi-gcc-5" and "arm-linux-gnueabi-gcc-5 -static", respectively, in Makefile</li></ol> |
