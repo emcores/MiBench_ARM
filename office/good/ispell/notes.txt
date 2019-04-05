@@ -1,0 +1,6 @@
+1. Add following lines to local.h
+
+#define CC "arm-linux-gnueabi-gcc-5"
+#define CFLAGS "-static"
+
+2. In correct.c, change all instances of "getline" to "getline_s" to avoid conflicting types error.

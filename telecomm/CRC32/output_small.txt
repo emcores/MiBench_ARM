@@ -1,0 +1,13 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 19:20:34
+gem5 executing on artax, pid 15352
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'crc ../adpcm/data/small.pcm'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['crc', '../adpcm/data/small.pcm']
+Global frequency set at 1000000000000 ticks per second
+6DA5B639 1368864 ../adpcm/data/small.pcm
+exiting with last active thread context  @  35941638750

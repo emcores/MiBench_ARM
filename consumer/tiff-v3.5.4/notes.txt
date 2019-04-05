@@ -1,0 +1,16 @@
+1. Remove the config.site file
+
+2. Use ./configure --target=arm-linux-gnueabi -with-CC=arm-linux-gnueabi-gcc-5
+
+3. Error occurs: 
+
+= libtiff
+make[1]: Entering directory '/home/ruben/benchmarks/ARM/MiBench/consumer/tiff-v3.5.4/libtiff'
+/usr/bin/arm-linux-gnueabi-gcc-5 -static -o mkg3states  -O -I. -I../libtiff   ../libtiff/mkg3states.c
+rm -f tif_fax3sm.c; ./mkg3states -c const tif_fax3sm.c
+./mkg3states: 1: ./mkg3states: Syntax error: word unexpected (expecting ")")
+Makefile:238: recipe for target 'tif_fax3sm.c' failed
+make[1]: *** [tif_fax3sm.c] Error 2
+make[1]: Leaving directory '/home/ruben/benchmarks/ARM/MiBench/consumer/tiff-v3.5.4/libtiff'
+Makefile:47: recipe for target 'all' failed
+make: *** [all] Error 2

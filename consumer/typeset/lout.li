@@ -1,0 +1,64 @@
+00 Basser Lout Version 3.24 (October 2000) database index file
+00symbol 1 @BasicSetup @DocumentSetup @TheoremCounterMarker
+00symbol 10 @BasicSetup @DocumentSetup @FigureCounterMarker
+00symbol 11 @BasicSetup @DocumentSetup @TablePrefixMarker
+00symbol 12 @BasicSetup @DocumentSetup @TableCounterMarker
+00symbol 13 @BasicSetup @PageMarker
+00symbol 14 @BasicSetup @DocumentSetup @FootNoteCounterMarker
+00symbol 15 @BasicSetup @DocumentSetup @Runner
+00symbol 16 @BasicSetup @NumberMarker
+00symbol 17 @BasicSetup listitem
+00symbol 2 @BasicSetup @DocumentSetup @DefinitionCounterMarker
+00symbol 3 @BasicSetup @DocumentSetup @ClaimCounterMarker
+00symbol 4 @BasicSetup @DocumentSetup @PropositionCounterMarker
+00symbol 5 @BasicSetup @DocumentSetup @LemmaCounterMarker
+00symbol 6 @BasicSetup @DocumentSetup @CorollaryCounterMarker
+00symbol 7 @BasicSetup @DocumentSetup @ExampleCounterMarker
+00symbol 8 @BasicSetup @NumDispCounterMarker
+00symbol 9 @BasicSetup @DocumentSetup @FigurePrefixMarker
+1&10.2599.large.lout.1	0	00001	0	1	large.lout
+1&10.2599.small.lout.1	0	00027	0	1	small.lout
+10&10.3502.large.lout.1	0	00010	1456	105	large.lout
+10&10.3502.small.lout.1	0	00028	1456	105	small.lout
+11&10.3739.large.lout.1	0	00011	1542	112	large.lout
+11&10.3739.small.lout.1	0	00029	1542	112	small.lout
+12&10.3747.large.lout.1	0	00012	1625	119	large.lout
+12&10.3747.small.lout.1	0	00030	1625	119	small.lout
+13&7.1067.large.lout.1	0	00013	1710	126	large.lout
+13&7.1067.large.lout.2	0	00020	2377	184	large.lout
+13&7.1067.large.lout.3	0	00022	2634	205	large.lout
+13&7.1067.small.lout.1	0	00031	1710	126	small.lout
+13&7.1067.small.lout.2	0	00032	2151	164	small.lout
+13&7.1492.large.lout.1	0	00019	1710	126	large.lout
+13&last.page	0	00026	2634	205	large.lout
+13&last.page	0	00033	2151	164	small.lout
+14&10.1381.large.lout.1	0	00014	1997	151	large.lout
+14&10.1381.large.lout.2	0	00021	2546	198	large.lout
+14&10.1381.large.lout.3	0	00023	2810	220	large.lout
+14&10.1381.small.lout.1	0	00034	1997	151	small.lout
+14&10.1381.small.lout.2	0	00035	2320	178	small.lout
+15&10.796.large.lout.1	0	00025	2967	233	large.lout
+15&10.796.large.lout.2	0	00015	2085	158	large.lout
+15&10.796.large.lout.3	0	00024	2898	227	large.lout
+15&10.796.small.lout.1	0	00036	2477	191	small.lout
+15&10.796.small.lout.2	0	00037	2085	158	small.lout
+15&10.796.small.lout.3	0	00038	2408	185	small.lout
+16&7.1052.large.lout.2	0	00016	2151	164	large.lout
+16&7.1492.large.lout.1	0	00018	2151	164	large.lout
+17&7.1492.large.lout.1	0	00017	2225	171	large.lout
+2&10.2658.large.lout.1	0	00002	260	20	large.lout
+2&10.2658.small.lout.1	0	00039	260	20	small.lout
+3&10.2713.large.lout.1	0	00003	412	30	large.lout
+3&10.2713.small.lout.1	0	00040	412	30	small.lout
+4&10.2768.large.lout.1	0	00004	554	40	large.lout
+4&10.2768.small.lout.1	0	00041	554	40	small.lout
+5&10.2823.large.lout.1	0	00005	708	50	large.lout
+5&10.2823.small.lout.1	0	00042	708	50	small.lout
+6&10.2878.large.lout.1	0	00006	850	60	large.lout
+6&10.2878.small.lout.1	0	00043	850	60	small.lout
+7&10.2933.large.lout.1	0	00007	1000	70	large.lout
+7&10.2933.small.lout.1	0	00044	1000	70	small.lout
+8&7.1249.large.lout.1	0	00008	1146	80	large.lout
+8&7.1249.small.lout.1	0	00045	1146	80	small.lout
+9&10.3494.large.lout.1	0	00009	1372	98	large.lout
+9&10.3494.small.lout.1	0	00046	1372	98	small.lout

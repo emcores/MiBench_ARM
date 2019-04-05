@@ -1,0 +1,33 @@
+nohup: ignoring input
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/ruben/benchmarks/ARM/MiBench/security/pgp/src/pgp'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+Pretty Good Privacy(tm) 2.6.3ia - Public-key encryption for the masses.
+(c) 1990-96 Philip Zimmermann, Phil's Pretty Good Software. 1996-03-04
+International version - not for use in the USA. Does not use RSAREF.
+Current time: 2088/05/20 21:56 GMT
+warn: ignoring syscall rt_sigaction(...)
+      (further warnings will be suppressed)
+fatal: syscall statfs64 (#266) unimplemented.
+Memory Usage: 2233708 KBytes
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/ruben/benchmarks/ARM/MiBench/security/pgp/src/pgp'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+Pretty Good Privacy(tm) 2.6.3ia - Public-key encryption for the masses.
+(c) 1990-96 Philip Zimmermann, Phil's Pretty Good Software. 1996-03-04
+International version - not for use in the USA. Does not use RSAREF.
+Current time: 2088/05/20 21:56 GMT
+warn: ignoring syscall rt_sigaction(...)
+      (further warnings will be suppressed)

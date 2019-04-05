@@ -1,0 +1,60 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:679: checking for a BSD compatible install
+configure:732: checking whether build environment is sane
+configure:789: checking whether make sets ${MAKE}
+configure:835: checking for working aclocal
+configure:848: checking for working autoconf
+configure:861: checking for working automake
+configure:874: checking for working autoheader
+configure:887: checking for working makeinfo
+configure:913: checking host system type
+configure:938: checking for gcc
+configure:1051: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -static  ) works
+configure:1067: arm-linux-gnueabi-gcc-5 -static -o conftest    conftest.c  1>&5
+configure:1064:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:1093: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -static  ) is a cross-compiler
+configure:1098: checking whether we are using GNU C
+configure:1126: checking whether arm-linux-gnueabi-gcc-5 -static accepts -g
+configure:1229: checking build system type
+configure:1249: checking for ranlib
+configure:1288: checking for ld used by GCC
+configure:1350: checking if the linker (/usr/arm-linux-gnueabi/bin/ld) is GNU ld
+configure:1366: checking for BSD-compatible nm
+configure:1402: checking whether ln -s works
+ltconfig:603: checking for object suffix
+ltconfig:604: arm-linux-gnueabi-gcc-5 -static -c -g -O2  conftest.c 1>&5
+ltconfig:776: checking if arm-linux-gnueabi-gcc-5 PIC flag -fPIC works
+ltconfig:777: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -fPIC -DPIC  conftest.c 1>&5
+ltconfig:829: checking if arm-linux-gnueabi-gcc-5 supports -c -o file.o
+ltconfig:830: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -o out/conftest2.o  conftest.c 1>&5
+ltconfig:862: checking if arm-linux-gnueabi-gcc-5 supports -c -o file.lo
+ltconfig:863: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -c -o conftest.lo  conftest.c 1>&5
+ltconfig:914: checking if arm-linux-gnueabi-gcc-5 supports -fno-rtti -fno-exceptions
+ltconfig:915: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:958: checking if arm-linux-gnueabi-gcc-5 static flag -static works
+ltconfig:959: arm-linux-gnueabi-gcc-5 -static -o conftest -g -O2   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+ltconfig:1592: checking if global_symbol_pipe works
+ltconfig:1593: arm-linux-gnueabi-gcc-5 -static -c -g -O2  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){nm_test_var='a';nm_test_func();return(0);}
+ ^
+ltconfig:1596: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
+ltconfig:1648: arm-linux-gnueabi-gcc-5 -static -o conftest -g -O2 -fno-builtin   conftest.c conftstm.o 1>&5
+configure:1641: checking how to run the C preprocessor
+configure:1721: checking for ANSI C header files
+configure:1827: checking for working const
+configure:1902: checking for inline
+configure:1947: checking for assert.h
+configure:1947: checking for zlib.h
+configure:1957: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:1947: checking for unistd.h
+configure:2034: checking whether to enable profiling
+configure:2048: checking whether to enable debugging

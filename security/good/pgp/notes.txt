@@ -1,0 +1,5 @@
+1. Add arm make option to pgp Makefile
+
+2. Change all instances of "getline" to "getline_s" in src/armor.c
+
+3. When running "make arm", make sure all files are compiled with the "-static" flag.

@@ -1,0 +1,7 @@
+1. Change CC to arm-linux-gnueabi-gcc-5 in Makefile.
+
+2. Add "-static" flag to the CFLAGS variable.
+
+3. Comment out the line containing the "strip" command.
+
+4. Add the "-static" flag to the line containing "$(CC)"

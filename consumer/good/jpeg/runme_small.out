@@ -1,0 +1,24 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 19:48:24
+gem5 executing on artax, pid 24100
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'jpeg-6a/cjpeg -dct int -progressive -opt -outfile output_small_encode.jpeg input_small.ppm'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['jpeg-6a/cjpeg', '-dct', 'int', '-progressive', '-opt', '-outfile', 'output_small_encode.jpeg', 'input_small.ppm']
+Global frequency set at 1000000000000 ticks per second
+exiting with last active thread context  @  6886566250
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 19:48:52
+gem5 executing on artax, pid 24253
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'jpeg-6a/djpeg -dct int -ppm -outfile output_small_decode.ppm input_small.jpg'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['jpeg-6a/djpeg', '-dct', 'int', '-ppm', '-outfile', 'output_small_decode.ppm', 'input_small.jpg']
+Global frequency set at 1000000000000 ticks per second
+exiting with last active thread context  @  1507156750

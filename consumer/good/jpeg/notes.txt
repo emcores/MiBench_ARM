@@ -1,0 +1,1 @@
+1. Change CC to "arm-linux-gnueabi-gcc-5 -static" in Makefile.

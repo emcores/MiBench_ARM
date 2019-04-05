@@ -1,0 +1,5 @@
+1. Use ./configure --build x86_64-pc-linux-gnu --host arm-linux-gnueabi
+
+2. In Makefile, add "-static" flag to CC
+
+3. In Makefile, add "-lm" flag to LDLIBS

@@ -1,0 +1,45 @@
+nohup: ignoring input
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/ruben/benchmarks/ARM/MiBench/office_arm/ghostscript/src/gs'
+info: Increasing stack size by one page.
+panic: Page table fault when accessing virtual address 0x91
+Memory Usage: 2239264 KBytes
+Program aborted at tick 4135994500
+--- BEGIN LIBC BACKTRACE ---
+/home/ruben/gem5/build/ARM/gem5.opt(_Z15print_backtracev+0x28)[0x1aac158]
+/home/ruben/gem5/build/ARM/gem5.opt(_Z12abortHandleri+0x46)[0x1abecd6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x11390)[0x7f19a3954390]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x38)[0x7f19a235c428]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x16a)[0x7f19a235e02a]
+/home/ruben/gem5/build/ARM/gem5.opt[0x9224df]
+/home/ruben/gem5/build/ARM/gem5.opt(_ZN21GenericPageTableFault6invokeEP13ThreadContextRK14RefCountingPtrI10StaticInstE+0x57)[0x1ae8417]
+/home/ruben/gem5/build/ARM/gem5.opt(_ZN13BaseSimpleCPU9advancePCERKSt10shared_ptrI9FaultBaseE+0x10f)[0x1b3d7af]
+/home/ruben/gem5/build/ARM/gem5.opt(_ZN15AtomicSimpleCPU4tickEv+0x58a)[0x1b346da]
+/home/ruben/gem5/build/ARM/gem5.opt(_ZN10EventQueue10serviceOneEv+0xc5)[0x1ab2945]
+/home/ruben/gem5/build/ARM/gem5.opt(_Z9doSimLoopP10EventQueue+0x50)[0x1aca9d0]
+/home/ruben/gem5/build/ARM/gem5.opt(_Z8simulatem+0xd1b)[0x1acbabb]
+/home/ruben/gem5/build/ARM/gem5.opt[0x1a8347a]
+/home/ruben/gem5/build/ARM/gem5.opt[0x988fe5]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x7852)[0x7f19a3c11772]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x85c)[0x7f19a3d4805c]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x6ffd)[0x7f19a3c10f1d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x85c)[0x7f19a3d4805c]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x6ffd)[0x7f19a3c10f1d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x85c)[0x7f19a3d4805c]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x19)[0x7f19a3c09da9]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x613b)[0x7f19a3c1005b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x85c)[0x7f19a3d4805c]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x6ffd)[0x7f19a3c10f1d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x85c)[0x7f19a3d4805c]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x19)[0x7f19a3c09da9]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyRun_StringFlags+0x76)[0x7f19a3c841f6]
+/home/ruben/gem5/build/ARM/gem5.opt(_Z6m5MainiPPc+0x8f)[0x1abd6cf]
+/home/ruben/gem5/build/ARM/gem5.opt(main+0x33)[0x8cf9e3]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f19a2347830]
+/home/ruben/gem5/build/ARM/gem5.opt(_start+0x29)[0x911fa9]
+--- END LIBC BACKTRACE ---
+Aborted (core dumped)

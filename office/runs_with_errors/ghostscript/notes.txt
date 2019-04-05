@@ -1,0 +1,18 @@
+Attempts:
+
+1. Change CC,AR,RANLIB to ARM variants in Makefile. No change in existing errors.
+
+2. Changed CCAUX to "gcc -static". Fixed existing errors. New errors encountered later in the make.
+
+3. Change "dprintf" to "dprintf_s" in /usr/arm-linux-gnueabi/include/stdio.h and 
+      /usr/arm-linux-gnueabi/include/bits/stdio2.h
+      Fixed existing errors. New errors encountered later in the make.
+
+4. Add "#include <time.h>" right after line 33 in src/time_.h
+      All errors fixed and make completed.
+
+5. Created /usr/arm-linux-gnueabi/include/stdio_original.h and 
+      /usr/arm-linux-gnueabi/include/bits/stdio2_original.h to keep records of modifications made to
+      the standard C files, which is not recommended unless you know exactly what you are doing.
+
+6. Runs, but then fails with "Error: /typecheck in --idiv--"

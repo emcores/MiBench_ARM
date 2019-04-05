@@ -1,0 +1,96 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs.  It is not useful on other systems.
+# If it contains results you don't want to keep, you may remove or edit it.
+#
+# By default, configure uses ./config.cache as the cache file,
+# creating it if it does not exist already.  You can give configure
+# the --cache-file=FILE option to use a different cache file; that is
+# what configure does when it calls configure scripts in
+# subdirectories, so they share the cache.
+# Giving --cache-file=/dev/null disables caching, for debugging configure.
+# config.status only pays attention to the cache file if you give it the
+# --recheck option to rerun configure.
+#
+ac_cv_c_bigendian=${ac_cv_c_bigendian='no'}
+ac_cv_c_const=${ac_cv_c_const='yes'}
+ac_cv_c_inline=${ac_cv_c_inline='inline'}
+ac_cv_exeext=${ac_cv_exeext='no'}
+ac_cv_func___argz_count=${ac_cv_func___argz_count='yes'}
+ac_cv_func___argz_next=${ac_cv_func___argz_next='yes'}
+ac_cv_func___argz_stringify=${ac_cv_func___argz_stringify='yes'}
+ac_cv_func_alloca_works=${ac_cv_func_alloca_works='yes'}
+ac_cv_func_fcntl=${ac_cv_func_fcntl='yes'}
+ac_cv_func_fork=${ac_cv_func_fork='yes'}
+ac_cv_func_getcwd=${ac_cv_func_getcwd='yes'}
+ac_cv_func_getpagesize=${ac_cv_func_getpagesize='yes'}
+ac_cv_func_localeconv=${ac_cv_func_localeconv='yes'}
+ac_cv_func_madvise=${ac_cv_func_madvise='yes'}
+ac_cv_func_mmap_fixed_mapped=${ac_cv_func_mmap_fixed_mapped='no'}
+ac_cv_func_munmap=${ac_cv_func_munmap='yes'}
+ac_cv_func_pipe=${ac_cv_func_pipe='yes'}
+ac_cv_func_putenv=${ac_cv_func_putenv='yes'}
+ac_cv_func_setenv=${ac_cv_func_setenv='yes'}
+ac_cv_func_setlocale=${ac_cv_func_setlocale='yes'}
+ac_cv_func_stpcpy=${ac_cv_func_stpcpy='yes'}
+ac_cv_func_strcasecmp=${ac_cv_func_strcasecmp='yes'}
+ac_cv_func_strchr=${ac_cv_func_strchr='yes'}
+ac_cv_func_strdup=${ac_cv_func_strdup='yes'}
+ac_cv_func_strncasecmp=${ac_cv_func_strncasecmp='yes'}
+ac_cv_func_vprintf=${ac_cv_func_vprintf='yes'}
+ac_cv_func_waitpid=${ac_cv_func_waitpid='yes'}
+ac_cv_header_alloca_h=${ac_cv_header_alloca_h='yes'}
+ac_cv_header_argz_h=${ac_cv_header_argz_h='yes'}
+ac_cv_header_assert_h=${ac_cv_header_assert_h='yes'}
+ac_cv_header_errno_h=${ac_cv_header_errno_h='yes'}
+ac_cv_header_fcntl_h=${ac_cv_header_fcntl_h='yes'}
+ac_cv_header_libintl_h=${ac_cv_header_libintl_h='yes'}
+ac_cv_header_limits_h=${ac_cv_header_limits_h='yes'}
+ac_cv_header_locale_h=${ac_cv_header_locale_h='yes'}
+ac_cv_header_machine_soundcard_h=${ac_cv_header_machine_soundcard_h='no'}
+ac_cv_header_malloc_h=${ac_cv_header_malloc_h='yes'}
+ac_cv_header_nl_types_h=${ac_cv_header_nl_types_h='yes'}
+ac_cv_header_stdc=${ac_cv_header_stdc='yes'}
+ac_cv_header_string_h=${ac_cv_header_string_h='yes'}
+ac_cv_header_stropts_h=${ac_cv_header_stropts_h='yes'}
+ac_cv_header_sys_param_h=${ac_cv_header_sys_param_h='yes'}
+ac_cv_header_sys_soundcard_h=${ac_cv_header_sys_soundcard_h='yes'}
+ac_cv_header_sys_types_h=${ac_cv_header_sys_types_h='yes'}
+ac_cv_header_sys_wait_h=${ac_cv_header_sys_wait_h='yes'}
+ac_cv_header_termios_h=${ac_cv_header_termios_h='yes'}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h='yes'}
+ac_cv_header_zlib_h=${ac_cv_header_zlib_h='yes'}
+ac_cv_lib_esd_esd_open_sound=${ac_cv_lib_esd_esd_open_sound='no'}
+ac_cv_lib_z_compress2=${ac_cv_lib_z_compress2='no'}
+ac_cv_path_GMSGFMT=${ac_cv_path_GMSGFMT='no'}
+ac_cv_path_LD=${ac_cv_path_LD='/usr/arm-linux-gnueabi/bin/ld'}
+ac_cv_path_MSGFMT=${ac_cv_path_MSGFMT='no'}
+ac_cv_path_NM=${ac_cv_path_NM='/usr/bin/nm -B'}
+ac_cv_path_XGETTEXT=${ac_cv_path_XGETTEXT=':'}
+ac_cv_path_install=${ac_cv_path_install='/usr/bin/install -c'}
+ac_cv_prog_CC=${ac_cv_prog_CC='arm-linux-gnueabi-gcc-5 -static'}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='arm-linux-gnueabi-gcc-5 -static -E'}
+ac_cv_prog_LN_S=${ac_cv_prog_LN_S='ln -s'}
+ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB='ranlib'}
+ac_cv_prog_cc_cross=${ac_cv_prog_cc_cross='yes'}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g='yes'}
+ac_cv_prog_cc_works=${ac_cv_prog_cc_works='yes'}
+ac_cv_prog_gcc=${ac_cv_prog_gcc='yes'}
+ac_cv_prog_gcc_traditional=${ac_cv_prog_gcc_traditional='no'}
+ac_cv_prog_gnu_ld=${ac_cv_prog_gnu_ld='yes'}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set='yes'}
+ac_cv_search_log10=${ac_cv_search_log10='none required'}
+ac_cv_search_pow=${ac_cv_search_pow='-lm'}
+ac_cv_sizeof_int=${ac_cv_sizeof_int='2'}
+ac_cv_sizeof_long=${ac_cv_sizeof_long='4'}
+ac_cv_sizeof_long_long=${ac_cv_sizeof_long_long='8'}
+ac_cv_type_off_t=${ac_cv_type_off_t='yes'}
+ac_cv_type_pid_t=${ac_cv_type_pid_t='yes'}
+ac_cv_type_size_t=${ac_cv_type_size_t='yes'}
+am_cv_val_LC_MESSAGES=${am_cv_val_LC_MESSAGES='yes'}
+gt_cv_func_gettext_libc=${gt_cv_func_gettext_libc='yes'}
+nls_cv_force_use_gnu_gettext=${nls_cv_force_use_gnu_gettext='no'}
+nls_cv_header_intl=${nls_cv_header_intl='intl/libintl.h'}
+nls_cv_header_libgt=${nls_cv_header_libgt='intl/libgettext.h'}
+nls_cv_use_catgets=${nls_cv_use_catgets='no'}
+nls_cv_use_gnu_gettext=${nls_cv_use_gnu_gettext='yes'}

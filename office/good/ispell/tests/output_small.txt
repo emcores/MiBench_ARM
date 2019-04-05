@@ -1,0 +1,784 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 22 2019 15:34:00
+gem5 executing on artax, pid 15531
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'ispell -a -d tests/americanmed+'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['ispell', '-a', '-d', 'tests/americanmed+']
+Global frequency set at 1000000000000 ticks per second
+@(#) International Ispell Version 3.1.20 10/10/95
+*
+# Vonnegut's 5
+*
+*
+*
+*
+
+
++ LADY
+*
+*
+*
+*
+*
+*
+
+
+*
+& sunscreen 2 7: sun screen, sun-screen
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+& sunscreen 2 52: sun screen, sun-screen
+*
+*
+*
+*
+
+*
+*
++ BENEFIT
+*
+& sunscreen 2 24: sun screen, sun-screen
+*
+*
+*
+*
++ SCIENTIST
+*
+*
+
+*
+*
+*
+*
++ HA
+*
+& bsis 8 27: basis, Bois, BS is, BS-is, b sis, b-sis, Isis, sis
+*
++ LIABLE
+*
+*
+*
++ MEANDER
+
+*
+*
+*
+*
+*
+*
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
++ NEVE
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
++ YEAR
+*
+*
+*
+*
++ PHOTO
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
++ REAL
++ LOOK
+*
+*
+*
++ A
+*
++ A
+*
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
++ I
++ A
+
+*
++ A
+*
+*
+*
+*
+& algera 5 34: algebra, Alger, Algeria, Alger a, Alger-a
++ EQUATE
+*
++ CHEW
+*
+*
+*
+
+*
++ TROUBLE
+*
+*
+*
+*
+*
+*
+*
++ THING
+*
++ NEVE
++ CROSS
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+& pm 20 49: am, cm, em, FM, GM, km, m, mm, nm, p, pa, Pam, PC, Ph, pH, pi, PM, Po, ppm, RPM
+*
+*
+*
+*
+
+
+*
+*
+*
+*
+*
+*
++ SCARE
+*
+
+
+*
+
+
+*
+*
+*
+*
+*
++ PEOPLE
++ HEART
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
++ YOUR
+
+
+*
+
+
+*
+*
+*
+*
+*
+*
++ SOMETIME
+*
+*
++ SOMETIME
+*
+
+*
+*
+*
++ I
+*
+*
+*
+*
+*
++ IT
+*
+*
+*
+
+
+*
++ COMPLIMENT
+*
+*
+*
+*
++ INSULT
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+
+
+*
+*
+*
+*
++ LETTER
+*
+*
+*
+*
+*
+& statemnts 1 55: statements
+
+
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
++ LIVE
+*
+*
+*
+*
+*
+*
+& olds 10 52: colds, folds, golds, holds, molds, odds, old, oldy, old s, old-s
+*
+*
+*
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
++ KNEE
+*
+*
+*
+*
+*
+
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+& funky 7 60: funk, funk y, funk-y, funny, gunky, junky, punky
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
++ CHOICE
+*
+*
+*
+*
+*
+
+*
++ ELSE
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
++ IT
+*
++ GREAT
+& instrment 1 46: instrument
+*
+*
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+
+*
+*
+*
+*
++ MAGAZINE
+*
+*
+*
+*
+*
+*
+*
+
+
+*
+*
+*
+*
++ PARENT
+*
++ NEVE
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
++ SIBLING
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+
+*
+*
++ FRIEND
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
++ GAP
+*
+*
+*
+*
+*
+*
+
++ OLD
+*
+*
+*
+*
+*
+*
+*
+*
+& whoi 9 46: hoi, who, whoa, whom, whop, who i, who-i, w hoi, w-hoi
+*
+*
+*
+*
+*
+*
+
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
++ MAKE
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
++ MAKE
+*
+*
+*
+
+
+*
+*
+*
+*
++ PRICE
+*
+*
++ POLITICIAN
+*
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
++ PRICE
+*
+*
++ POLITICIAN
+*
+*
+*
+
+*
++ RESPECT
+*
++ ELDER
+
+
+*
+*
++ ELDER
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
+*
+*
+*
+*
+*
++ NEVE
+*
+*
+*
+*
+*
+*
+
+*
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+
+*
+& creful 1 5: careful
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+*
+*
++ I
+*
+*
+*
+*
++ DISPENSE
+*
++ I
+*
+*
+*
++ FISH
+*
+
+*
+*
+*
+*
++ WIPE
+*
+*
++ PAINT
+*
+*
+*
++ PART
+*
+
++ RECYCLE
+*
+*
+*
+*
++ IT
+*
+
+
+*
+& trst 3 6: test, trot, trust
+*
+*
+*
+& sunscreen 2 21: sun screen, sun-screen
+
+exiting with last active thread context  @  3292131750

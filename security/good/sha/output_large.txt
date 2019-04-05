@@ -1,0 +1,13 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 16:48:30
+gem5 executing on artax, pid 9756
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'sha input_large.asc'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['sha', 'input_large.asc']
+Global frequency set at 1000000000000 ticks per second
+fbac40bd cb5fff1d bf7fda22 b3b7af61 278263fc
+exiting with last active thread context  @  27546041500

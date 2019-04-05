@@ -1,0 +1,6 @@
+1. Change CC to "arm-linux-gnueabi-gcc-5 -static" in Makefile.
+
+2. Remove LIBTERMCAP support in consumer/lame
+
+3. Error when running lame:
+			*** buffer overflow detected ***: lame3.70/lame terminated

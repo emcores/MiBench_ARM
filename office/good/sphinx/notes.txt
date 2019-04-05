@@ -1,0 +1,3 @@
+1. Used "./configure --build x86_64-pc-linux-gnu --host arm-linux-gnueabi"
+
+2. Fixed block_actual_cdcn_norm compile errors etc.

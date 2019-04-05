@@ -1,0 +1,296 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:744: checking for a BSD compatible install
+configure:797: checking whether build environment is sane
+configure:854: checking whether make sets ${MAKE}
+configure:900: checking for working aclocal
+configure:913: checking for working autoconf
+configure:926: checking for working automake
+configure:939: checking for working autoheader
+configure:952: checking for working makeinfo
+configure:980: checking host system type
+configure:1005: checking for gcc
+configure:1118: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -static  ) works
+configure:1134: arm-linux-gnueabi-gcc-5 -static -o conftest    conftest.c  1>&5
+configure:1131:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:1160: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -static  ) is a cross-compiler
+configure:1165: checking whether we are using GNU C
+configure:1174: arm-linux-gnueabi-gcc-5 -static -E conftest.c
+configure:1193: checking whether arm-linux-gnueabi-gcc-5 -static accepts -g
+configure:1226: checking for POSIXized ISC
+configure:1318: checking build system type
+configure:1338: checking for ranlib
+configure:1377: checking for ld used by GCC
+configure:1439: checking if the linker (/usr/arm-linux-gnueabi/bin/ld) is GNU ld
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+configure:1455: checking for BSD-compatible nm
+configure:1491: checking whether ln -s works
+ltconfig:603: checking for object suffix
+ltconfig:604: arm-linux-gnueabi-gcc-5 -static -c -g -O2  conftest.c 1>&5
+ltconfig:629: checking for executable suffix
+ltconfig:630: arm-linux-gnueabi-gcc-5 -static -o conftest -g -O2   conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main () { return 0; }
+ ^
+ltconfig:776: checking if arm-linux-gnueabi-gcc-5 PIC flag -fPIC works
+ltconfig:777: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -fPIC -DPIC  conftest.c 1>&5
+ltconfig:829: checking if arm-linux-gnueabi-gcc-5 supports -c -o file.o
+ltconfig:830: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -o out/conftest2.o  conftest.c 1>&5
+ltconfig:862: checking if arm-linux-gnueabi-gcc-5 supports -c -o file.lo
+ltconfig:863: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -c -o conftest.lo  conftest.c 1>&5
+ltconfig:914: checking if arm-linux-gnueabi-gcc-5 supports -fno-rtti -fno-exceptions
+ltconfig:915: arm-linux-gnueabi-gcc-5 -static -c -g -O2 -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:958: checking if arm-linux-gnueabi-gcc-5 static flag -static works
+ltconfig:959: arm-linux-gnueabi-gcc-5 -static -o conftest -g -O2   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+ltconfig:1592: checking if global_symbol_pipe works
+ltconfig:1593: arm-linux-gnueabi-gcc-5 -static -c -g -O2  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){nm_test_var='a';nm_test_func();return(0);}
+ ^
+ltconfig:1596: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
+ltconfig:1648: arm-linux-gnueabi-gcc-5 -static -o conftest -g -O2 -fno-builtin   conftest.c conftstm.o 1>&5
+configure:1680: checking how to run the C preprocessor
+configure:1701: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:1761: checking whether arm-linux-gnueabi-gcc-5 -static needs -traditional
+configure:1882: checking for ANSI C header files
+configure:1895: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:1986: checking for working const
+configure:2040: arm-linux-gnueabi-gcc-5 -static -c -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:2014:15: warning: unused variable 's' [-Wunused-variable]
+   char const *s = 0 ? (char *) 0 : (char const *) 0;
+               ^
+configure:2034:13: warning: unused variable 'foo' [-Wunused-variable]
+   const int foo = 10;
+             ^
+configure:2002:27: warning: unused variable 'zero' [-Wunused-variable]
+ static struct point const zero = {0,0};
+                           ^
+configure:1996:39: warning: unused variable 'x' [-Wunused-variable]
+ typedef int charset[2]; const charset x = {0,0};
+                                       ^
+configure:2016:5: warning: 't' is used uninitialized in this function [-Wuninitialized]
+   *t++ = 0;
+     ^
+configure:2031:21: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+   struct s *b; b->j = 5;
+                     ^
+configure:2061: checking for inline
+configure:2075: arm-linux-gnueabi-gcc-5 -static -c -Wall  conftest.c 1>&5
+configure:2101: checking for off_t
+configure:2134: checking for size_t
+configure:2169: checking for working alloca.h
+configure:2181: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure: In function 'main':
+configure:2177:7: warning: unused variable 'p' [-Wunused-variable]
+ void *p = alloca(2 * sizeof(int));
+       ^
+configure:2202: checking for alloca
+configure:2235: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure: In function 'main':
+configure:2231:7: warning: unused variable 'p' [-Wunused-variable]
+ char *p = (char *) alloca(1);
+       ^
+configure:2404: checking for unistd.h
+configure:2414: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2443: checking for getpagesize
+configure:2471: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2496: checking for working mmap
+configure:2675: checking for argz.h
+configure:2685: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for limits.h
+configure:2685: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for locale.h
+configure:2685: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for nl_types.h
+configure:2685: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for malloc.h
+configure:2685: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for string.h
+configure:2685: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for unistd.h
+configure:2675: checking for sys/param.h
+configure:2685: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2715: checking for getcwd
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for munmap
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for putenv
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for setenv
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for setlocale
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for strchr
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2727:6: warning: conflicting types for built-in function 'strchr'
+ char $ac_func();
+      ^
+configure:2715: checking for strcasecmp
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2727:6: warning: conflicting types for built-in function 'strcasecmp'
+ char $ac_func();
+      ^
+configure:2715: checking for strdup
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2727:6: warning: conflicting types for built-in function 'strdup'
+ char $ac_func();
+      ^
+configure:2715: checking for __argz_count
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for __argz_stringify
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for __argz_next
+configure:2743: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2772: checking for stpcpy
+configure:2800: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2784:6: warning: conflicting types for built-in function 'stpcpy'
+ char $ac_func();
+      ^
+configure:2834: checking for LC_MESSAGES
+configure:2846: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:2867: checking whether NLS is requested
+configure:2887: checking whether included gettext is requested
+configure:2906: checking for libintl.h
+configure:2916: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:2933: checking for gettext in libc
+configure:2945: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:3060: checking for msgfmt
+configure:3248: checking whether catgets can be used
+configure:3520: checking for msgfmt
+configure:3554: checking for gmsgfmt
+configure:3590: checking for xgettext
+configure:3683: checking for catalogs to be installed
+configure:3788: checking for ANSI C header files
+configure:3897: checking for assert.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for termios.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for stropts.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for sys/types.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for fcntl.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for errno.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for sys/soundcard.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for machine/soundcard.h
+configure:3907: arm-linux-gnueabi-gcc-5 -static -E  conftest.c >/dev/null 2>conftest.out
+configure:3903:31: fatal error: machine/soundcard.h: No such file or directory
+compilation terminated.
+configure: failed program was:
+#line 3902 "configure"
+#include "confdefs.h"
+#include <machine/soundcard.h>
+configure:3936: checking for working const
+configure:4011: checking for inline
+configure:4051: checking whether byte ordering is bigendian
+configure:4069: arm-linux-gnueabi-gcc-5 -static -c -Wall  conftest.c 1>&5
+configure:4084: arm-linux-gnueabi-gcc-5 -static -c -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4079:2: error: unknown type name 'not'
+  not big endian
+  ^
+configure:4079:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'endian'
+  not big endian
+          ^
+configure: failed program was:
+#line 4073 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+#include <sys/param.h>
+int main() {
+
+#if BYTE_ORDER != BIG_ENDIAN
+ not big endian
+#endif
+; return 0; }
+configure:4143: checking for vprintf
+configure:4171: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:4155:6: warning: conflicting types for built-in function 'vprintf'
+ char vprintf();
+      ^
+configure:4250: checking for madvise
+configure:4278: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:4250: checking for localeconv
+configure:4278: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:4305: checking for strcasecmp
+configure:4305: checking for strncasecmp
+configure:4333: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:4317:6: warning: conflicting types for built-in function 'strncasecmp'
+ char $ac_func();
+      ^
+configure:4361: checking for library containing pow
+configure:4379: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c  1>&5
+configure:4372:6: warning: conflicting types for built-in function 'pow'
+ char pow();
+      ^
+/tmp/ccOE52Dc.o: In function `main':
+conftest.c:(.text+0x8): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4368 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char pow();
+
+int main() {
+pow()
+; return 0; }
+configure:4401: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c -lm   1>&5
+configure:4394:6: warning: conflicting types for built-in function 'pow'
+ char pow();
+      ^
+configure:4423: checking for library containing log10
+configure:4441: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c -lm  1>&5
+configure:4434:6: warning: conflicting types for built-in function 'log10'
+ char log10();
+      ^
+configure:4487: checking for compress2 in -lz
+configure:4506: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c -lz  -lm  1>&5
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/bin/ld: cannot find -lz
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4495 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char compress2();
+
+int main() {
+compress2()
+; return 0; }
+configure:4806: checking whether to use mmap
+configure:4882: checking for audio support
+configure:4915:23: fatal error: mmsystem.h: No such file or directory
+compilation terminated.
+configure:4995: checking for esd_open_sound in -lesd
+configure:5014: arm-linux-gnueabi-gcc-5 -static -o conftest -Wall   conftest.c -lesd  -lm  1>&5
+/usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/bin/ld: cannot find -lesd
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 5003 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char esd_open_sound();
+
+int main() {
+esd_open_sound()
+; return 0; }
+configure:5119: checking whether to enable profiling
+configure:5133: checking whether to enable debugging
+configure:5220: checking whether to enable experimental code

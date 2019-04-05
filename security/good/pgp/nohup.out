@@ -1,0 +1,63 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 11:02:25
+gem5 executing on artax, pid 20674
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py '../src/pgp -sa -z '"'"'this is a test'"'"' -u taustin@eecs.umich.edu testin.txt austin@umich.edu'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['../src/pgp', '-sa', '-z', 'this is a test', '-u', 'taustin@eecs.umich.edu', 'testin.txt', 'austin@umich.edu']
+Global frequency set at 1000000000000 ticks per second
+
+A secret key is required to make a signature. tempfile: created 'testin.txt.$00'
+signfile: infile = 'testin.txt', outfile = 'testin.txt.$00', mode = 'b', literalfile = 'testin.txt'
+searching key ring file './secring.pgp' for userid "taustin@eecs.umich.edu"
+Pass phrase is good.  searching key ring file './pubring.pgp' for keyID 1E974D89
+Just a moment....tempfile: created 'testin.txt.$01'
+squish_file: infile = 'testin.txt.$00', outfile = 'testin.txt.$01'
+Compressing file...compressed.  rmtemp: removing 'testin.txt.$00'
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 11:02:47
+gem5 executing on artax, pid 20775
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py '../src/pgp -z '"'"'this is a test'"'"' -u taustin@eecs.umich.edu testout.txt.asc'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['../src/pgp', '-z', 'this is a test', '-u', 'taustin@eecs.umich.edu', 'testout.txt.asc']
+Global frequency set at 1000000000000 ticks per second
+tempfile: created 'testout.tx.$00'
+de_armor_file: infile = testout.txt.asc, outfile = testout.tx.$00, curline = 0
+tempfile: created 'testout.tx.$01'
+
+File is encrypted.  Secret key is required to read it. decryptfile: infile = testout.tx.$00, outfile = testout.tx.$01
+searching key ring file './secring.pgp' for keyID 1B58F87D
+
+Key for user ID: austin@umich.edu
+1024-bit key, key ID 1B58F87D, created 2001/08/03
+Pass phrase is good.  Just a moment....
+Recipients:
+  austin@umich.edu
+
+Memory used: 8k
+.rmtemp: removing 'testout.tx.$00'
+tempfile: created 'testout.tx.$00'
+Decompressing plaintext...done.  rmtemp: removing 'testout.tx.$01'
+tempfile: created 'testout.tx.$01'
+
+File has signature.  Public key is required to check signature.
+check_signaturefile: infile = 'testout.tx.$00', outfile = 'testout.tx.$01'
+searching key ring file './pubring.pgp' for keyID 1E974D89
+File type: 'b'
+Original plaintext file name was: 'testin.txt'
+searching key ring file './pubring.pgp' for keyID 1E974D89
+.
+Good signature from user "taustin@eecs.umich.edu".
+Signature made 2088/05/20 21:56 GMT using 768-bit key, key ID 1E974D89
+rmtemp: removing 'testout.tx.$00'
+savetemp: renaming 'testout.tx.$01' to 'testout.txt'
+
+exitPGP: exitcode = 0
+exiting with last active thread context  @  11922379500

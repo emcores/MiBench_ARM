@@ -1,0 +1,1 @@
+1. Change "gcc" to "arm-linux-gnueabi-gcc-5" in Makefile

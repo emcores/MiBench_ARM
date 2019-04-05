@@ -1,0 +1,5 @@
+nohup: ignoring input
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+fatal: Unable to open dynamic executable's interpreter.
+Memory Usage: 2226620 KBytes

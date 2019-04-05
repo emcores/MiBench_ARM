@@ -1,0 +1,580 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 25 2019 08:09:36
+gem5 executing on artax, pid 20684
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'lout-3.24/lout -I lout-3.24/include -D lout-3.24/data -F lout-3.24/font -C lout-3.24/maps -H lout-3.24/hyph small.lout'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['lout-3.24/lout', '-I', 'lout-3.24/include', '-D', 'lout-3.24/data', '-F', 'lout-3.24/font', '-C', 'lout-3.24/maps', '-H', 'lout-3.24/hyph', 'small.lout']
+Global frequency set at 1000000000000 ticks per second
+%!PS-Adobe-3.0
+%%Creator: Basser Lout Version 3.24 (October 2000)
+%%CreationDate: Sat Sep  8 21:46:40 2001
+%%DocumentData: Binary
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentMedia: A4 595 842 0 white ()
+%%PageOrder: Ascend
+%%Pages: (atend)
+%%BoundingBox: 0 0 595 842
+%%EndComments
+
+%%BeginProlog
+%%BeginResource: procset LoutStartUp
+/save_cp { currentpoint /cp_y exch def /cp_x exch def } def
+/restore_cp { cp_x cp_y moveto } def
+/outline { gsave 1 1 1 setrgbcolor dup show save_cp
+  grestore true charpath stroke restore_cp } bind def
+/m  { 3 1 roll moveto show } bind def
+/mo { 3 1 roll moveto outline } bind def
+/s  { exch currentpoint exch pop moveto show } bind def
+/so { exch currentpoint exch pop moveto outline } bind def
+/k  { exch neg 0 rmoveto show } bind def
+/ko { exch neg 0 rmoveto outline } bind def
+/r  { exch 0 rmoveto show } bind def
+/ro { exch 0 rmoveto outline } bind def
+/c  { gsave 3 1 roll rmoveto show grestore } bind def
+/co { gsave 3 1 roll rmoveto outline grestore } bind def
+/ul { gsave setlinewidth dup 3 1 roll
+      moveto lineto stroke grestore } bind def
+/in { 1440 mul } def
+/cm { 567 mul } def
+/pt { 20 mul } def
+/em { 120 mul } def
+/sp { louts mul } def
+/vs { loutv mul } def
+/ft { loutf mul } def
+/dg {           } def
+
+/LoutGraphic {
+  /louts exch def
+  /loutv exch def
+  /loutf exch def
+  /ymark exch def
+  /xmark exch def
+  /ysize exch def
+  /xsize exch def
+} def
+
+/LoutGr2 { gsave translate LoutGraphic gsave } def
+
+/LoutFont
+{ findfont exch scalefont setfont
+} bind def
+
+/LoutRecode {
+  { findfont dup length dict begin
+    {1 index /FID ne {def} {pop pop} ifelse} forall
+    /Encoding exch def
+    currentdict end definefont pop
+  }
+  stopped pop
+} bind def
+
+/BeginEPSF {
+  /LoutEPSFState save def
+  /dict_count countdictstack def
+  /op_count count 1 sub def
+  userdict begin
+  /showpage { } def
+  0 setgray 0 setlinecap
+  1 setlinewidth 0 setlinejoin
+  10 setmiterlimit [] 0 setdash newpath
+  /languagelevel where
+  { pop languagelevel
+    1 ne
+    { false setstrokeadjust false setoverprint
+    } if
+  } if
+} bind def
+
+/EndEPSF {
+  count op_count sub { pop } repeat
+  countdictstack dict_count sub { end } repeat
+  LoutEPSFState restore
+} bind def
+%%EndResource
+
+%%BeginResource: procset LoutTblPrependGraphic
+% @PrependGraphic file lout-3.24/include/tblf.lpg
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                    %
+%  PostScript @SysPrependGraphic file for @Tbl  Jeffrey H. Kingston  %
+%  Version 1.0                                             June 1998 %
+%                                                                    %
+%  To assist in avoiding name clashes, the names of all symbols      %
+%  defined here begin with "ltbl".                                   %
+%                                                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% painting (i.e. filling): - ltblwhite - (etc.)
+/ltblnopaint		{			       } def
+/ltblnochange		{ 			  fill } def
+/ltbldarkblue		{ 0.0 0.0 0.5 setrgbcolor fill } def
+/ltblblue		{ 0.0 0.0 1.0 setrgbcolor fill } def
+/ltbllightblue		{ 0.5 0.5 1.0 setrgbcolor fill } def
+/ltbldarkgreen		{ 0.0 0.5 0.0 setrgbcolor fill } def
+/ltblgreen		{ 0.0 1.0 0.0 setrgbcolor fill } def
+/ltbllightgreen	        { 0.5 1.0 0.5 setrgbcolor fill } def
+/ltbldarkred		{ 0.5 0.0 0.0 setrgbcolor fill } def
+/ltblred		{ 1.0 0.0 0.0 setrgbcolor fill } def
+/ltbllightred		{ 1.0 0.5 0.5 setrgbcolor fill } def
+/ltbldarkcyan		{ 0.0 0.5 0.5 setrgbcolor fill } def
+/ltblcyan		{ 0.0 1.0 1.0 setrgbcolor fill } def
+/ltbllightcyan		{ 0.5 1.0 1.0 setrgbcolor fill } def
+/ltbldarkmagenta	{ 0.5 0.0 0.5 setrgbcolor fill } def
+/ltblmagenta		{ 1.0 0.0 1.0 setrgbcolor fill } def
+/ltbllightmagenta	{ 1.0 0.5 1.0 setrgbcolor fill } def
+/ltbldarkyellow        	{ 0.5 0.5 0.0 setrgbcolor fill } def
+/ltblyellow		{ 1.0 1.0 0.0 setrgbcolor fill } def
+/ltbllightyellow	{ 1.0 1.0 0.5 setrgbcolor fill } def
+/ltbldarkgray		{ 0.2 0.2 0.2 setrgbcolor fill } def
+/ltblgray		{ 0.5 0.5 0.5 setrgbcolor fill } def
+/ltbllightgray		{ 0.8 0.8 0.8 setrgbcolor fill } def
+/ltbldarkgrey		{ 0.2 0.2 0.2 setrgbcolor fill } def
+/ltblgrey		{ 0.5 0.5 0.5 setrgbcolor fill } def
+/ltbllightgrey		{ 0.8 0.8 0.8 setrgbcolor fill } def
+/ltblblack		{ 0.0 0.0 0.0 setrgbcolor fill } def
+/ltblwhite		{ 1.0 1.0 1.0 setrgbcolor fill } def
+%%EndResource
+
+%%BeginResource: procset LoutBasicSetup
+% @PrependGraphic file lout-3.24/include/bsf.lpg
+
+% width height linethickness louteuro -
+% draw a Euro symbol of this width and height with this line thickness
+/louteuro {
+  20 dict begin
+    /eurothick exch def
+    /euroheight exch def
+    /eurowidth exch def
+    /eurostrokewidth euroheight 0.8 mul def
+    /eurostep eurothick 60 cos mul 60 sin div def
+    /eurotheta 40 def
+
+    % llx lly width thickness louteurobox -
+    % draw angled box starting at (llx, lly) with given width and thickness
+    /louteurobox
+    {
+      /euroboxthick exch def
+      /euroboxwidth exch def
+      newpath moveto euroboxwidth 0 rlineto
+      eurostep euroboxthick rlineto
+      euroboxwidth neg 0 rlineto closepath fill
+    } def
+
+    % lower cross stroke
+    0 euroheight 2 div eurothick 1.5 mul sub
+    eurostrokewidth eurothick louteurobox
+
+    % upper cross stroke
+    0 euroheight 2 div eurothick 0.5 mul add
+    eurostrokewidth eurostep 2 mul add eurothick louteurobox
+
+    % circular part
+    /eurohctr eurowidth euroheight 2 div eurotheta cos mul sub def
+    /eurovctr euroheight 2 div def
+    newpath
+    eurohctr eurovctr eurovctr eurotheta 350 eurotheta sub arc
+    eurohctr eurovctr eurovctr eurothick sub 365 eurotheta sub eurotheta arcn
+    closepath fill
+  end
+} def
+
+% path for @FullWidthRule symbol
+/LoutRule
+{ 0 0 moveto xsize 0 lineto
+} def
+
+% path for @Box symbol
+/LoutBox
+{ 0 0 moveto xsize 0 lineto
+  xsize ysize lineto 0 ysize lineto
+  closepath
+} def
+
+% path for @CurveBox symbol
+/LoutCurveBox
+{ xmark 0 moveto
+  xsize xmark sub xmark xmark 270 360 arc
+  xsize xmark sub ysize xmark sub xmark 0 90 arc
+  xmark ysize xmark sub xmark 90 180 arc
+  xmark xmark xmark 180 270 arc
+  closepath
+} def
+
+% path for @ShadowBox symbol
+/LoutShadowBox
+{ xmark 2 mul 0 moveto xsize 0 lineto
+  xsize ysize xmark 2 mul sub lineto
+  xsize xmark sub ysize xmark 2 mul sub lineto
+  xsize xmark sub xmark lineto
+  xmark 2 mul xmark lineto
+  closepath
+} def
+
+% set up dictionary containing margin note data: parity LoutMargSet -
+/LoutMargSet
+{ /LoutMargDict 12 dict def
+  LoutMargDict begin
+    /parity exch def
+    /matr matrix currentmatrix def
+    /rightx xsize def
+    /lefty ysize def   % highest allowable point for top of next left note
+    /righty ysize def  % highest allowable point for top of next right note
+    /max { 2 copy gt { pop } { exch pop } ifelse } def
+    /min { 2 copy lt { pop } { exch pop } ifelse } def
+  end
+} def
+
+%translate coordinate system for marginal notes:  type LoutMargShift -
+% where type 0 is left margin, 1 is right margin, 2 is outer, 3 is inner
+/LoutMargShift
+{ LoutMargDict begin
+
+    % y coordinate of top of note, in margin coords, before vertical adjust
+    0 ysize transform matr itransform exch pop
+
+    % decide whether left or right margin based on type and parity
+    exch [ 0 1 parity 1 parity sub ] exch get 0 eq
+    {
+      % left margin: adjust top of note downwards if overlaps previous note
+      lefty min
+
+      % bottom of note is new lefty position and also translate position
+      ysize sub dup /lefty exch def
+
+      % want right edge of note at coordinate zero
+      xsize neg exch
+    }
+    {
+      % right margin: adjust top of note downwards if overlaps previous note
+      righty min
+
+      % bottom of note is new righty position and also translate position
+      ysize sub dup /righty exch def
+
+      % want left edge of note at coordinate rightx
+      rightx exch
+    } ifelse
+
+    % stack now contains coord of bottom left corner in margin coordinates
+    matr setmatrix translate
+  end
+} def
+
+% create LoutPageDict with left, right, foot, top for @Place symbol users
+/LoutPageSet
+{
+  /LoutPageDict 5 dict def
+  LoutPageDict begin
+    /matr matrix currentmatrix def
+    /left 0 def
+    /right xsize def
+    /foot 0 def
+    /top ysize def
+  end
+
+} def
+
+%%EndResource
+
+%%EndProlog
+
+%%BeginSetup
+%%BeginResource: encoding vec2
+/vec2 [
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+/zero /one /two /three /four /five /six /seven
+/eight /nine /colon /semicolon /less /equal /greater /question
+/at /A /B /C /D /E /F /G
+/H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W
+/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g
+/h /i /j /k /l /m /n /o
+/p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+/quotesinglbase /quotedblbase /ellipsis /OE /oe /quotedblleft /quotedblright /fi
+/fl /endash /emdash /bullet /dagger /daggerdbl /florin /fraction
+/dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent
+/dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis
+] def
+%%EndResource
+
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageResources: font Times-Roman
+%%+ font Times-Bold
+%%+ font Times-Italic
+/pgsave save def
+%%IncludeResource: font Times-Roman
+/Times-Romanfnt1 vec2 /Times-Roman LoutRecode
+/fnt1 { /Times-Romanfnt1 LoutFont } def
+%%IncludeResource: font Times-Bold
+/Times-Boldfnt2 vec2 /Times-Bold LoutRecode
+/fnt2 { /Times-Boldfnt2 LoutFont } def
+%%IncludeResource: font Times-Italic
+/Times-Italicfnt3 vec2 /Times-Italic LoutRecode
+/fnt3 { /Times-Italicfnt3 LoutFont } def
+0.0500 dup scale 10 setlinewidth
+%%EndPageSetup
+
+gsave
+0 0 translate
+240 fnt1 0.0 0.0 0.0 setrgbcolor 11900 16840 0 16840 240 288 60 LoutGraphic
+gsave
+LoutPageSet
+grestore
+gsave
+0 16840 translate
+0.0000 rotate
+9066 0 0 0 240 288 60 1417 -1417 LoutGr2
+1 LoutMargSet
+grestore
+
+grestore
+9066 14006 0 13805 240 288 60 1417 -15423 LoutGr2
+1 LoutMargSet
+grestore
+440 fnt1 0 13706(GNU)m 1073(Compiler)s 2863(Collection)s 4818(V)s 48(ersion)k
+6284(3.0)s 6954(Is)s 7383(Released;)s 0 13283(Includes)m 1589(Support)s
+3099(for)s 3730(Ja)s 8(v)k 11(a)k 4610(and)s
+5360(IA-64)s 6516(-)s 6759(GNU)s 7822(Project)s 0 12860(-)m
+235(Free)s 1117(Softw)s 4(are)k 2800(F)s 6(oundation)k
+4901(\(FSF\))s 240 fnt1 0 12332(A)m 230(plain)s 765(te)s 3(xt)k
+1180(v)s 3(ersion)k 1938(of)s 2209(this)s 2605(press)s
+3147(release)s 3865(is)s 0 4923 12308 12 ul
+4075(a)s 4(v)k 6(ailable)k
+4983(.)s 240 fnt2 480 11957(FOR)m 1044(IMMEDIA)s 22(TE)k
+2540(RELEASE)s 240 fnt1 0 11670(Media)m 671(Contact:)s 1521(Free)s
+2001(Softw)s 2(are)k 2917(F)s 3(oundation)k 0 11382(Bradle)m 3(y)k
+808(M.)s 1125(K)s 3(uhn)k 1712 3536 11358 12 ul
+1712(mailto:pr@gnu.or)s 4(g)k
+0 11094(Phone:)m 705(+1-617-542-5942)s 400 fnt1 513 10011(GNU)m 1471(Compiler)s
+3080(Collection)s 4838(V)s 44(ersion)k 6152(3.0)s 6743(Is)s
+7115(Released)s 360 fnt1 1935 8815(Includes)m 3228(Support)s 4457(for)s
+4965(Ja)s 7(v)k 9(a)k 5677(and)s 6283(IA-64)s
+240 fnt2 480 8020(Boston,)m 1311(Massachusetts,)s 2911(USA)s 240 fnt1
+3516 8021(-)m 240 fnt3 3656 8023(Monday)m 13(,)k 4533(J)s 8(une)k
+5043(18,)s 5388(2001)s 240 fnt1 5979 8021(-)m 6120(The)s
+6560(Free)s 7052(Softw)s 2(are)k 7981(F)s 3(oundation)k
+0 7733(announced)m 1101(today)s 1692(the)s 2045(3.0)s 2406(release)s
+3129(of)s 3405(the)s 3759(GNU)s 4339(Compiler)s 5307(Collection)s
+6366(\(GCC\).)s 7126(GCC)s 7676(is)s 7892(a)s 8063(Free)s
+8548(\(as)s 8883(in)s 0 7445(freedom\))m 924(Softw)s 2(are)k
+1840(compiler)s 2749(toolset,)s 3493(licensed)s 4334(under)s 4939(the)s
+5287(GNU)s 5862(General)s 6673(Public)s 7337(License)s 8136(\(GPL\).)s
+480 7071(This)m 964(v)s 3(ersion)k 1731(of)s 2011(GCC)s
+2565(fully)s 3079(incorporates)s 4320(a)s 4494(nati)s 6(v)k 3(e-code)k
+5665(compiler)s 6583(for)s 6930(the)s 7287(Ja)s 4(v)k 6(a)k
+7771(programming)s 0 6783(language.)m 993(This)s 1494(allo)s 6(ws)k
+2188(Ja)s 4(v)k 6(a)k 2688(programs)s 3668(that)s
+4111(run)s 4512(f)s 2(aster)k 9(,)k 5162(while)s
+5775(using)s 6372(a)s 6563(completely)s 7704(Free)s 8210(Softw)s 2(are)k
+0 6495(system)m 724(without)s 1515(depending)s 2566(on)s 2863(a)s
+3029(proprietary)s 4144(Ja)s 4(v)k 6(a)k 4619(compiler)s 13(.)k
+480 6121(GCC)m 1026(3.0)s 1382(includes)s 2232(re)s 6(written)k
+3145(support)s 3924(the)s 4274(Intel)s 4767(and)s 5173(AMD)s
+5785(32-bit)s 6417(f)s 2(amily)k 7094(of)s 7366(processors,)s
+8484(which)s 0 5833(includes)m 855(all)s 1155(Pentium)s 2019(systems.)s
+2887(GCC)s 3439(3.0)s 3801(no)s 6(w)k 4269(generates)s
+5229(much)s 5825(better)s 6435(output)s 7114(for)s 7459(these)s
+8013(processors.)s 0 5545(This)m 476(allo)s 6(ws)k 1145(programs)s
+2099(to)s 2338(run)s 2714(f)s 2(aster)k 3301(on)s
+3598(such)s 4094(systems.)s 480 5171(GCC)m 1071(3.0)s 1472(supports)s
+2381(the)s 2775(Intel)s 3314(IA-64)s 3985(processor)s 13(.)k
+5038(This)s 5561(support)s 6385(will)s 6858(allo)s 6(w)k
+7483(completely)s 8646(Free)s 0 4883(Softw)m 2(are)k 908(systems)s
+1708(to)s 1939(run)s 2307(on)s 2596(the)s 2936(IA-64)s
+3553(architecture)s 4727(immediately)s 5967(upon)s 6496(the)s 6836(public)s
+7479(release)s 8189(of)s 8451(IA-64.)s 0 4595(GCC)m 545(3.0)s
+900(also)s 1338(supports)s 2200(other)s 2751(ne)s 6(w)k
+3198(chipsets)s 4019(from)s 4543(Motorola,)s 5540(Atmel,)s 6244(Mitsubishi,)s
+7374(Fujitsu)s 8093(and)s 8497(Sun.)s 480 4221(GCC)m 1046(3.0)s
+1422(v)s 6(astly)k 2062(impro)s 3(v)k 3(es)k
+3018(C++)s 3522(support.)s 4365(Man)s 3(y)k 4996(b)s 4(ug)k
+5426(\207x)s 3(es)k 5947(and)s 6372(changes)s 7215(to)s
+7475(the)s 7844(C++)s 8348(support)s 0 3933(library)m 696(allo)s 6(w)k
+1282(GCC)s 1834(3.0)s 2195(to)s 2441(conform)s 3318(better)s
+3927(to)s 4173(ISO)s 4617(C++)s 5106(standards)s 6067(than)s
+6543(e)s 6(v)k 3(er)k 7011(before.)s 7732(Also)s
+8244(included)s 0 3645(is)m 210(a)s 376(ne)s 6(w)k
+823(Application)s 2009(Binary)s 2714(Interf)s 2(ace)k 3615(\(ABI\))s
+4234(for)s 4572(C++.)s 480 3271(But,)m 984(technological)s 2379(considerations)s
+3862(are)s 4261(not)s 4679(the)s 5078(most)s 5655(important)s
+6696(reasons)s 7515(for)s 7905(using)s 8529(GCC.)s 0 2983(Richard)m
+852(M.)s 1206(Stallman,)s 2199(president)s 3172(of)s 3480(the)s
+3866(Free)s 4383(Softw)s 2(are)k 5336(F)s 3(oundation,)k
+6568(pointed)s 7381(out:)s 7830(\205Man)s 3(y)k 8584(users)s
+0 2695(choose)m 744(GCC)s 1312(for)s 1673(technical)s 2614(adv)s 6(antages,)k
+3801(such)s 4320(as)s 4594(ha)s 4(ving)k 5318(one)s
+5743(compiler)s 6675(that)s 7117(w)s 2(orks)k 7774(on)s
+8094(man)s 3(y)k 8701(sys)s 8998(-)s 0 2407(tems,)m
+551(or)s 802(its)s 1070(po)s 6(werful)k 1975(C)s
+2179(e)s 3(xtensions.)k 3282(But)s 3680(the)s 4021(most)s
+4538(important)s 5519(bene\207t)s 6222(of)s 6486(GCC)s 7023(is)s
+7225(freedom\211your)s 8632(free)s 8998(-)s 0 2119(dom.)m 529(A)s
+758(free)s 1182(operating)s 2137(system)s 2860(requires)s 3678(a)s
+3843(free)s 4268(compiler)s 13(.)k 5206(GCC)s 5750(w)s 2(as)k
+6170(an)s 6451(essential)s 7327(step)s 7764(on)s 8059(the)s
+8406(road)s 8887(to)s 0 1831(freedom.)m 16(\206)k 480 1457(GCC)m
+1069(3.0)s 1468(has)s 1883(bene\207tted)s 2928(from)s 3496(the)s
+3889(ef)s 6(forts)k 4600(of)s 4915(se)s 6(v)k 3(eral)k
+5682(successful)s 6763(b)s 4(usinesses)k 7864(b)s 4(uilt)k
+8403(around)s 0 1169(support)m 801(and)s 1228(de)s 6(v)k 3(elopment)k
+2538(of)s 2832(Free)s 3335(Softw)s 2(are.)k 4322(GCC,)s
+4945(which)s 5610(is)s 5843(Free)s 6346(Softw)s 2(are)k
+7285(licensed)s 8149(under)s 8778(the)s 0 881(GPL,)m 555(has)s
+920(f)s 2(acilitated)k 1924(sustainable)s 3037(b)s 4(usiness)k
+3890(models.)s 4680(Some)s 5276(of)s 5542(these)s 6084(companies)s
+7153(are)s 7495(listed)s 8065(in)s 8303(the)s 8646(Free)s
+0 593(Softw)m 2(are)k 916(F)s 3(oundation')k 13(s)k
+2214(service)s 2946(directory)s 15(,)k 3900(which)s 4542(can)s
+4931(be)s 5213(found)s 5830(at:)s 0 3595 281 12 ul
+0 305(http://www)m 15(.gnu.or)k 4(g/prep/service.html)k
+
+grestore
+0 0 0 0 240 288 60 1417 -15423 LoutGr2
+1 LoutMargSet
+grestore
+
+grestore
+
+grestore
+
+grestore
+
+pgsave restore
+showpage
+
+%%Page: 2 2
+%%BeginPageSetup
+%%PageResources: font Times-Roman
+/pgsave save def
+%%IncludeResource: font Times-Roman
+/Times-Romanfnt1 vec2 /Times-Roman LoutRecode
+/fnt1 { /Times-Romanfnt1 LoutFont } def
+0.0500 dup scale 10 setlinewidth
+%%EndPageSetup
+gsave
+0 0 translate
+240 fnt1 0.0 0.0 0.0 setrgbcolor 11900 16840 0 16840 240 288 60 LoutGraphic
+gsave
+LoutPageSet
+grestore
+gsave
+0 16840 translate
+0.0000 rotate
+5765 -1579(-)m 5893(2)s 6067(-)s 9066 13419 0 13310 240 288 60 1417 -15423 LoutGr2
+0 LoutMargSet
+grestore
+480 13256(More)m 1054(information)s
+2239(about)s 2831(the)s 3179(ne)s 6(w)k 3626(features)s
+4432(of)s 4703(GCC)s 5248(3.0)s 5603(can)s 5992(be)s
+6274(found)s 6891(at:)s 0 5244 12944 12 ul
+0 12968(http://www)m 15(.gnu.or)k 4(g/softw)k 2(are/gcc/gcc-3.0/features.html)k
+480 12594(The)m 908(softw)s 2(are)k 1784(can)s 2173(be)s
+2455(do)s 6(wnloaded)k 3678(from:)s 0 4467 12282 12 ul
+0 12306(http://www)m 15(.gnu.or)k 4(g/softw)k 2(are/gcc/releases.html)k
+480 11932(Users)m 1081(are)s 1434(encouraged)s 2602(to)s 2847(use)s
+3229(mirror)s 3904(sites)s 4386(for)s 4730(do)s 6(wnloads,)k
+5876(to)s 6121(decrease)s 7006(the)s 7360(load)s 7837(on)s
+8140(GNU)s 8722(and)s 0 11644(FSF)m 457(serv)s 3(ers.)k
+9066 10 0 10 240 288 60 0 11026 LoutGr2
+LoutRule stroke
+grestore
+
+grestore
+320 fnt1 1667 10242(About)m 2546(the)s 3010(GNU)s 3778(Compiler)s
+5063(Collection)s 6468(\(GCC\):)s 240 fnt1 0 9543(The)m 426(GNU)s
+998(Compiler)s 1958(Collection)s 3008(\(GCC\),)s 3764(originally)s 4744(called)s
+5369(the)s 5714(GNU)s 6287(C)s 6496(Compiler)s 9(,)k
+7494(includes)s 8339(compil)s 8998(-)s 0 9255(ers)m 338(for)s
+686(the)s 1044(C,)s 1321(C++,)s 1868(Objecti)s 6(v)k 3(e)k
+2854(C,)s 3131(F)s 3(ortran,)k 3948(and)s 4362(Ja)s 4(v)k 6(a)k
+4847(languages.)s 5918(Originally)s 6964(de)s 6(v)k 3(eloped)k
+8007(by)s 8311(Richard)s 0 8967(M.)m 318(Stallman,)s 1276(GCC)s
+1823(is)s 2035(no)s 6(w)k 2497(de)s 6(v)k 3(eloped)k
+3532(and)s 3938(impro)s 3(v)k 3(ed)k 4909(by)s
+5205(a)s 5372(w)s 2(orldwide)k 6451(netw)s 2(ork)k
+7296(of)s 7569(v)s 4(olunteers,)k 8670(lead)s 0 8679(by)m
+321(the)s 696(GCC)s 1268(Steering)s 2144(Committee,)s 3340(the)s
+3715(of\207cial)s 4473(maintainers)s 5665(of)s 5963(GCC.)s 6587(The)s
+7042(GCC)s 7614(website)s 8427(can)s 8844(be)s 0 8391(found)m
+617(at:)s 0 4044 8079 12 ul
+0 8103(http://www)m 15(.gnu.or)k 4(g/softw)k 2(are/gcc/gcc.html)k
+320 fnt1 3956 7277(About)m 4835(GNU:)s 240 fnt1 0 6794(GNU)m
+568(is)s 771(a)s 930(Free)s 1403(Softw)s 2(are)k
+2312(Unix-lik)s 2(e)k 3275(operating)s 4224(system.)s 4985(De)s 6(v)k 3(elopment)k
+6318(of)s 6582(GNU)s 7150(be)s 3(g)k 1(an)k
+7768(in)s 8004(1984.)s 8581(GCC)s 0 6506(is)m 210(the)s
+558(compiler)s 1467(for)s 1805(the)s 2153(GNU)s 2728(system.)s
+9066 10 0 10 240 288 60 0 6262 LoutGr2
+LoutRule stroke
+grestore
+
+grestore
+480 5556(Cop)m 2(yright)k 1517(\(C\))s 1892(2001)s 2416(Free)s
+2904(Softw)s 2(are)k 3829(F)s 3(oundation,)k 5032(Inc.,)s
+5513(59)s 5812(T)s 16(emple)k 6591(Place)s 7172(-)s
+7309(Suite)s 7864(330,)s 8340(Boston,)s 0 5268(MA)m 443(02111,)s
+1150(USA)s 480 4894(V)m 26(erbatim)k 1474(cop)s 2(ying)k
+2355(and)s 2817(distrib)s 4(ution)k 4030(of)s 4359(this)s
+4813(entire)s 5470(article)s 6179(is)s 6447(permitted)s 7478(in)s
+7779(an)s 3(y)k 8235(medium,)s 0 4606(pro)m 3(vided)k
+906(this)s 1302(notice)s 1942(is)s 2152(preserv)s 3(ed.)k
+480 4232(Updated:)m 1397($Date:)s 2074(2001/06/18)s 3213(13:35:14)s 4119($)s
+4289($Author:)s 5193(bkuhn)s 5850($)s 9066 10 0 10 240 288 60 0 3988 LoutGr2
+LoutRule stroke
+grestore
+
+grestore
+
+grestore
+0 0 0 0 240 288 60 1417 -15423 LoutGr2
+0 LoutMargSet
+grestore
+
+grestore
+
+grestore
+
+grestore
+
+pgsave restore
+showpage
+
+%%Trailer
+%%DocumentNeededResources: font Times-Roman
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%DocumentSuppliedResources: procset LoutStartUp
+%%+  procset LoutTblPrependGraphic
+%%+  procset LoutBasicSetup
+%%+ encoding vec2
+%%Pages: 2
+%%EOF
+exiting with last active thread context  @  22303335000

@@ -1,0 +1,20 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 22 2019 19:20:32
+gem5 executing on artax, pid 14128
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'src/gs -sDEVICE=ppm -dNOPAUSE -q -sOutputFile=data/output_large.ppm -- data/large.ps'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['src/gs', '-sDEVICE=ppm', '-dNOPAUSE', '-q', '-sOutputFile=data/output_large.ppm', '--', 'data/large.ps']
+Global frequency set at 1000000000000 ticks per second
+While reading gs_res.ps:
+Error: /typecheck in --idiv--
+Operand stack:
+   (gs_res.ps)   --nostringval--   ColorSpaceFamily   --nostringval--   Emulator   --nostringval--   Filter   --nostringval--   IODevice   --nostringval--   ColorRenderingType   --nostringval--   FMapType   --nostringval--   FontType   --nostringval--   FormType   --nostringval--   HalftoneType   --nostringval--   ImageType   --nostringval--   PatternType   --dict:6/6--   Category   PatternType   --dict:6/6--   --dict:6/6--   Category   PatternType   --dict:6/6--   18.0   2
+Execution stack:
+   %interp_exit   --nostringval--   --nostringval--   --nostringval--   0   --nostringval--   %array_continue   --nostringval--   --nostringval--   --nostringval--   false   1   %stopped_push   --nostringval--   --nostringval--   10   --nostringval--   %repeat_continue   --nostringval--   --nostringval--   25   5   %oparray_pop   --nostringval--   --nostringval--   --nostringval--   false   1   %stopped_push   --nostringval--   --nostringval--   --nostringval--   --nostringval--   --nostringval--   --nostringval--
+Dictionary stack:
+   --dict:531/809--   --dict:36/200--   --dict:531/809--   --dict:114/191--   --dict:12/12--
+Current file position is 13822

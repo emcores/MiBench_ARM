@@ -1,0 +1,9 @@
+1. Delete config.cache before running configure
+
+2. Use CC="arm-linux-gnueabi-gcc-5 -static" ./configure --build x86_64-pc-linux-gnu --host arm-linux-gnueabi \ 
+			--target arm-linux-gnueabi --without-id3tag
+
+3. Removed -fforce-mem option from configure and configure.in under libmad and 
+			removed id3tag support using ./configure --without-id3tag
+
+4. Unable to statically compile executable. Cannot run on gem5 ARM simulator

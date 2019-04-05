@@ -1,0 +1,73 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:568: checking for a BSD compatible install
+configure:621: checking whether build environment is sane
+configure:678: checking whether make sets ${MAKE}
+configure:724: checking for working aclocal
+configure:737: checking for working autoconf
+configure:750: checking for working automake
+configure:763: checking for working autoheader
+configure:776: checking for working makeinfo
+configure:798: checking for gcc
+configure:911: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -g -O2 -Wall ) works
+configure:927: arm-linux-gnueabi-gcc-5 -o conftest -g -O2 -Wall   conftest.c  1>&5
+configure:924:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:953: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -g -O2 -Wall ) is a cross-compiler
+configure:958: checking whether we are using GNU C
+configure:986: checking whether arm-linux-gnueabi-gcc-5 accepts -g
+configure:1018: checking for POSIXized ISC
+configure:1041: checking for gcc
+configure:1154: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -g -O2 -Wall ) works
+configure:1170: arm-linux-gnueabi-gcc-5 -o conftest -g -O2 -Wall   conftest.c  1>&5
+configure:1167:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:1196: checking whether the C compiler (arm-linux-gnueabi-gcc-5 -g -O2 -Wall ) is a cross-compiler
+configure:1201: checking whether we are using GNU C
+configure:1229: checking whether arm-linux-gnueabi-gcc-5 accepts -g
+configure:1264: checking for arm-linux-gnueabi-gcc-5 option to accept ANSI C
+configure:1341: checking how to run the C preprocessor
+configure:1421: checking for ANSI C header files
+configure:1526: checking return type of signal handlers
+configure:1583: checking host system type
+configure:1687: checking for perl
+configure:1722: checking for csh
+configure:1813: checking for ranlib
+configure:1853: checking for ld used by GCC
+configure:1910: checking if the linker (/usr/lib/gcc-cross/arm-linux-gnueabi/5/../../../../arm-linux-gnueabi/bin/ld) is GNU ld
+configure:1926: checking for BSD-compatible nm
+configure:1963: checking whether ln -s works
+ltconfig:603: checking for object suffix
+ltconfig:604: arm-linux-gnueabi-gcc-5 -c -g -O2 -Wall  conftest.c 1>&5
+ltconfig:629: checking for executable suffix
+ltconfig:630: arm-linux-gnueabi-gcc-5 -o conftest -g -O2 -Wall   conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main () { return 0; }
+ ^
+ltconfig:776: checking if arm-linux-gnueabi-gcc-5 PIC flag -fPIC works
+ltconfig:777: arm-linux-gnueabi-gcc-5 -c -g -O2 -Wall -fPIC -DPIC  conftest.c 1>&5
+ltconfig:829: checking if arm-linux-gnueabi-gcc-5 supports -c -o file.o
+ltconfig:830: arm-linux-gnueabi-gcc-5 -c -g -O2 -Wall -o out/conftest2.o  conftest.c 1>&5
+ltconfig:862: checking if arm-linux-gnueabi-gcc-5 supports -c -o file.lo
+ltconfig:863: arm-linux-gnueabi-gcc-5 -c -g -O2 -Wall -c -o conftest.lo  conftest.c 1>&5
+ltconfig:914: checking if arm-linux-gnueabi-gcc-5 supports -fno-rtti -fno-exceptions
+ltconfig:915: arm-linux-gnueabi-gcc-5 -c -g -O2 -Wall -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:958: checking if arm-linux-gnueabi-gcc-5 static flag -static works
+ltconfig:959: arm-linux-gnueabi-gcc-5 -o conftest -g -O2 -Wall   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+ltconfig:1635: checking if global_symbol_pipe works
+ltconfig:1636: arm-linux-gnueabi-gcc-5 -c -g -O2 -Wall  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){nm_test_var='a';nm_test_func();return(0);}
+ ^
+ltconfig:1639: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm"
+ltconfig:1691: arm-linux-gnueabi-gcc-5 -o conftest -g -O2 -Wall -fno-builtin   conftest.c conftstm.o 1>&5
+conftest.c:6:13: warning: 'main' is usually a function [-Wmain]
+ extern char main;
+             ^

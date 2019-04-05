@@ -1,0 +1,24 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 10:41:17
+gem5 executing on artax, pid 14595
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'bf e input_small.asc output_small.enc 1234567890abcdeffedcba0987654321'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['bf', 'e', 'input_small.asc', 'output_small.enc', '1234567890abcdeffedcba0987654321']
+Global frequency set at 1000000000000 ticks per second
+exiting with last active thread context  @  28626547250
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Feb  7 2019 15:22:43
+gem5 started Mar 23 2019 10:43:19
+gem5 executing on artax, pid 15164
+command line: /home/ruben/gem5/build/ARM/gem5.opt /home/ruben/gem5/configs/example/arm/starter_se.py 'bf d output_small.enc output_small.asc 1234567890abcdeffedcba0987654321'
+
+info: Standard input is not a terminal, disabling listeners.
+info: 1. command and arguments: ['bf', 'd', 'output_small.enc', 'output_small.asc', '1234567890abcdeffedcba0987654321']
+Global frequency set at 1000000000000 ticks per second
+exiting with last active thread context  @  28624673250
